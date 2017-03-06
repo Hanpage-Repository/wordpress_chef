@@ -8,6 +8,6 @@ bash "install_whatap" do
 		apt-get update
 		apt-get install whatap-agent
 		env PATH=$PATH whatap N8PTDY2LJJH088RWI5U7
-		apt-get install mailutils
+		apt-get install mailutils -y
 	EOH
 end
